@@ -1,0 +1,19 @@
+     Locking 1 package to latest compatible version
+    Checking redpowder v0.1.0 (D:\Github\RedstoneOS\redpowder)
+    Checking devmgr v0.1.0 (D:\Github\RedstoneOS\services\devices)
+warning: unused import: `sys_exit`
+  --> src\main.rs:59:26
+   |
+59 | use redpowder::syscall::{sys_exit, sys_yield};
+   |                          ^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `print`
+  --> src\main.rs:60:17
+   |
+60 | use redpowder::{print, println};
+   |                 ^^^^^
+
+warning: `devmgr` (bin "devmgr") generated 2 warnings (run `cargo fix --bin "devmgr" -p devmgr` to apply 2 suggestions)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.23s
